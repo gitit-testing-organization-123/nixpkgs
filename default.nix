@@ -19,6 +19,8 @@
   basilisk-cuda = pkgs.callPackage ./pkgs/basilisk { cudaSupport = true; };
   basilisk-hip = pkgs.callPackage ./pkgs/basilisk { hipSupport = true; };
 
+  gitit-basilisk = pkgs.callPackage ./pkgs/gitit-basilisk { };
+
   # example-package = pkgs.callPackage ./pkgs/example-package { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
