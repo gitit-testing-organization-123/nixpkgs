@@ -8,8 +8,8 @@ let
   gititSrc = fetchFromGitHub {
     owner = "gitit-testing-organization-123";
     repo = "gitit";
-    rev = "7ef1cbd885e64d23a30fe8158ef7a50baf02a071";
-    sha256 = "0ddps5x45iy5gadj39kl0hbghmhz1gb746zzddidvdw0dfpl0k0m";
+    rev = "9f473a6facd53c6552ebb9ed17b53396109544c9";
+    sha256 = "0p20s1ps7pjj71rvzlnnxzidwfr4nl3966wmj2rqb9ba0zk86kz2";
   };
 
   gitit = haskellPackages.callCabal2nix "gitit" gititSrc { };
