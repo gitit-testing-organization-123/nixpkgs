@@ -9,7 +9,7 @@ let
     owner = "gitit-testing-organization-123";
     repo = "gitit";
     rev = "9a06fb7b486a13d73a027d0de19f0f9b1c8a5a2d";
-    sha256 = "07hdbj97i93b04n5qqif31gazhbb207m5qvq97hw8c7cli4zz17s";
+    sha256 = "1mm9nscji2n5sjaibpzzimgqnhcm377k1s8gf8701kggd73rl03j";
   };
 
   gitit = haskellPackages.callCabal2nix "gitit" gititSrc { };
