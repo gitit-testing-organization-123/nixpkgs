@@ -8,7 +8,7 @@ let
   gititSrc = fetchFromGitHub {
     owner = "gitit-testing-organization-123";
     repo = "gitit";
-    rev = "228cd0743c2e4ad6d6a98a1f9fea155421dad73f";
+    rev = "9a06fb7b486a13d73a027d0de19f0f9b1c8a5a2d";
     sha256 = "07hdbj97i93b04n5qqif31gazhbb207m5qvq97hw8c7cli4zz17s";
   };
 
