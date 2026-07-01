@@ -40,10 +40,10 @@ stdenv.mkDerivation {
 
   # Build the current source tree (this repo checkout)
   src = fetchFromGitHub {
-    owner = "PacIFiC-Development-Team";
+    owner = "gitit-testing-organization-123";
     repo = "basilisk";
-    rev = "419ee0fbc6a32d737b60b301b2342dd3473b1ce6";
-    hash = "sha256-8bLPDooemD6BTkc3TPJUlZLEVUs5hv/JZRRCeptMJbs=";
+    rev = "53df21ab626f6698f99f01f444570c50764aa830";
+    hash = "sha256-elmwYshXe89GgVS5iMP6L7uWApnH4FCG4Glu1kqnMGE=";
   };
 
   nativeBuildInputs = [
